@@ -158,7 +158,7 @@ if __name__ == "__main__":
     feed = process_serper_results(res)
 
     for item in feed:
-        print("\n==============================")
+        print("\n================================")
         print(f"TITLE   : {item['title']}")
         print(f"SOURCE  : {item['source']}")
         print(f"DATE    : {item['date']}")
